@@ -1,9 +1,11 @@
-spring:
-  datasource:
-    url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
-    driverClassName: com.mysql.cj.jdbc.Driver
-    username: root
-    password: root
+# dataSource configuration
+#spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+#    driverClassName: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: root
+# MyBatisPlus configuration
 mybatis-plus:
   global-config:
     db-config:
@@ -11,6 +13,57 @@ mybatis-plus:
       field-strategy: not_empty
       table-underline: true
       db-type: mysql
-      logic-delete-value: 1 # \u903B\u8F91\u5DF2\u5220\u9664\u503C(\u9ED8\u8BA4\u4E3A 1)
-      logic-not-delete-value: 0 # \u903B\u8F91\u672A\u5220\u9664\u503C(\u9ED8\u8BA4\u4E3A 0)
+      logic-delete-value: 1
+      logic-not-delete-value: 0
   mapper-locations: classpath:/mapper/*.xml
+
+# single Druid dataSource configuration
+#spring:
+#  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+#    url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    username: root
+#    password: root
+#    druid:
+#      initial-size: 5 #initial connection pool count
+#      min-idle: 5 #min connection pool count
+#      max-active: 20 #max connection pool count
+#      max-wait: 60000 # connect time out
+#      stat-view-servlet:
+#        login-username: admin
+#        login-password: admin
+#      filter:
+#        stat:
+#          log-slow-sql: true  #slow select
+#          slow-sql-millis: 2000
+# multiple Druid dataSource configuration
+spring:
+  datasource:
+#    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      stat-view-servlet:
+        login-username: admin
+        login-password: admin
+      filter:
+        stat:
+          log-slow-sql: true  #slow select
+          slow-sql-millis: 2000
+      study:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
+        initial-size: 5 #initial connection pool count
+        min-idle: 5 #min connection pool count
+        max-active: 20 #max connection pool count
+        max-wait: 60000 # connect time out
+      study2:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/study2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
+        initial-size: 5 #initial connection pool count
+        min-idle: 5 #min connection pool count
+        max-active: 20 #max connection pool count
+        max-wait: 12000 # connect time out
