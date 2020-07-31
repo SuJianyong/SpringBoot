@@ -5,6 +5,7 @@
 #    driverClassName: com.mysql.cj.jdbc.Driver
 #    username: root
 #    password: root
+
 # MyBatisPlus configuration
 mybatis-plus:
   global-config:
@@ -37,6 +38,7 @@ mybatis-plus:
 #        stat:
 #          log-slow-sql: true  #slow select
 #          slow-sql-millis: 2000
+
 # multiple Druid dataSource configuration
 spring:
   datasource:
@@ -67,3 +69,14 @@ spring:
         min-idle: 5 #min connection pool count
         max-active: 20 #max connection pool count
         max-wait: 12000 # connect time out
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8 #max connection pool count
+        max-wait: -1 #connect time out
+        max-idle: 8
+        min-idle: 0
