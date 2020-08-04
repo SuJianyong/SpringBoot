@@ -10,10 +10,7 @@ import com.spring.mp.utils.PageUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 /**
  * <p>
@@ -83,6 +80,7 @@ public class UserController {
     public void insert(String name) {
         User user = new User();
         user.setName(name);
+        user.setCreateTime(new Date());
         userService.getBaseMapper().insert(user);
     }
     // update
