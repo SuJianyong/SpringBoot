@@ -64,7 +64,8 @@ public class CodeGenerator {
         dsc.setUrl("jdbc:mysql://localhost:3306/study?useSSL=false&serverTimezone=GMT%2B8");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
-        dsc.setUsername("root");dsc.setPassword("root");
+        dsc.setUsername("root");
+        dsc.setPassword("root");
         mpg.setDataSource(dsc);
 
         // 包配置
