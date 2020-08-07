@@ -74,7 +74,8 @@ public class MultiCodeGenerator {
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
 //        dsc.setUrl("jdbc:mysql://localhost:3306/study?useSSL=false&serverTimezone=GMT%2B8");
-        dsc.setUrl("jdbc:mysql://localhost:3306/yjstandardex?useSSL=false&serverTimezone=GMT%2B8");
+//        dsc.setUrl("jdbc:mysql://localhost:3306/yjstandardex?useSSL=false&serverTimezone=GMT%2B8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/study?useSSL=false&serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.cj.jdbc.Driver");
         dsc.setUsername("root");
         dsc.setPassword("root");
@@ -100,7 +101,7 @@ public class MultiCodeGenerator {
         pc.setMapper("com.yjstandard.core.module."  + packageConfig.getModuleName() + ".mapper");
         pc.setService("com.yjstandard.core.module."  + packageConfig.getModuleName() + ".service");
         pc.setServiceImpl("com.yjstandard.core.module."  + packageConfig.getModuleName() + ".service.impl");
-        pc.setController("com.yjstandard.app.controller");
+        pc.setController("com.yjstandard.app.controller." + packageConfig.getModuleName());
         mpg.setPackageInfo(pc);
 
         // 自定义配置
@@ -133,7 +134,7 @@ public class MultiCodeGenerator {
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
                 return projectPath + "/yjstandard-app/src/main/java/com/yjstandard/app/controller/"
-                        + tableInfo.getEntityName() + "Controller" + StringPool.DOT_JAVA;
+                        + packageConfig.getModuleName() + "/" + tableInfo.getEntityName() + "Controller" + StringPool.DOT_JAVA;
             }
         });
         focList.add(new FileOutConfig("/templates/service.java.ftl") {

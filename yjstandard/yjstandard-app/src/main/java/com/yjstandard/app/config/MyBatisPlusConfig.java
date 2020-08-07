@@ -3,7 +3,6 @@ package com.yjstandard.app.config;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 /**
  * @作者 苏健勇
@@ -11,12 +10,11 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
  * @描述
  */
 @Configuration
-@EnableTransactionManagement
+//@EnableTransactionManagement
 public class MyBatisPlusConfig {
     // 分页插件
     @Bean
-    public PaginationInterceptor paginationInterceptor(){
-        PaginationInterceptor paginationInterceptor = new PaginationInterceptor();
-        return paginationInterceptor;
+    public PaginationInterceptor paginationInterceptor() {
+        return new PaginationInterceptor();
     }
 }
