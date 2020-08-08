@@ -1,0 +1,27 @@
+server:
+  port: 80
+  servlet:
+    context-path: /xc
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    druid:
+      yjstandard:
+        url: jdbc:mysql://localhost:3306/yjstandardex?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      study:
+        url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+global-config:
+  #\u4E3B\u952E\u7C7B\u578B  0:"\u6570\u636E\u5E93ID\u81EA\u589E", 1:"\u7528\u6237\u8F93\u5165ID",2:"\u5168\u5C40\u552F\u4E00ID (\u6570\u5B57\u7C7B\u578B\u552F\u4E00ID)", 3:"\u5168\u5C40\u552F\u4E00ID UUID";
+  idType: 3
+  #\u5B57\u6BB5\u7B56\u7565 0:"\u5FFD\u7565\u5224\u65AD",1:"\u975E NULL \u5224\u65AD"),2:"\u975E\u7A7A\u5224\u65AD"
+  fieldStrategy: 2
+  #\u9A7C\u5CF0\u4E0B\u5212\u7EBF\u8F6C\u6362
+  dbColumnUnderline: true
+  #\u5237\u65B0mapper \u8C03\u8BD5\u795E\u5668
+  refreshMapper: true
