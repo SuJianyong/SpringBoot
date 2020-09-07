@@ -4,3 +4,4 @@
 - springboot-wesocket: wesocket
 - springboot-mp: mybatisPlus
 - springboot-excel: poi实现excel导入导出
+- springboot-shiro: shiro框架学习
