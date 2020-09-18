@@ -44,7 +44,7 @@
         <commons-lang.version>2.6</commons-lang.version>
 
         <!--fastjson版本-->
-        <fastjson.version>1.2.4</fastjson.version>
+        <fastjson.version>1.2.25.sec10</fastjson.version>
 
         <!--jackson版本-->
         <jackson.version>1.9.13</jackson.version>
