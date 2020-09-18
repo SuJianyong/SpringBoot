@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d0bd3b4-0d47-4b9c-a76e-008c0e3db124" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../springboot-mp/src/main/java/com/spring/mp/user/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-mp/src/main/java/com/spring/mp/user/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standardex/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../standardex/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/common/config/StudyDbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/common/config/StudyDbConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/common/config/YjStandardDbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/common/config/YjStandardDbConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/module/study/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/module/study/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/module/yjstandard/controller/SubdomainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../standardex/src/main/java/com/yunji/xc/module/yjstandard/controller/SubdomainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../standardex/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../standardex/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yjstandard/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yjstandard/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yjstandard/yjstandard-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yjstandard/yjstandard-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yjstandard/yjstandard-app/src/main/java/com/yjstandard/app/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yjstandard/yjstandard-app/src/main/java/com/yjstandard/app/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yjstandard/yjstandard-app/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../yjstandard/yjstandard-app/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yjstandard/yjstandard-core/src/main/java/com/yjstandard/core/common/config/StudyDbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yjstandard/yjstandard-core/src/main/java/com/yjstandard/core/common/config/StudyDbConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yjstandard/yjstandard-core/src/main/java/com/yjstandard/core/common/config/YjstandardDbConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../yjstandard/yjstandard-core/src/main/java/com/yjstandard/core/common/config/YjstandardDbConfig.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/soft-manager-api/target/" />
+    <ignored path="$PROJECT_DIR$/common/target/" />
+    <ignored path="$PROJECT_DIR$/xk-api/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/CodeGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="163">
+              <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2627#2765#0" expanded="true" />
+                <element signature="e#2764#2765#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/Subdomain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/pojo/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/controller/SubdomainController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="685">
+              <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/SysPermission.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/controller/ArticleController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/Article.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/StudyDbConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/YjStandardDbConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ServiceEx</find>
+      <find>ASSIGN_UUID</find>
+      <find>isNotEmpty</find>
+      <find>IdType.UUI</find>
+      <find>IdType.</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/soft-manager-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xk-api/pom.xml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/resources/application-test.yml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/yjstandard/pojo/Subdomain.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/yjstandard/controller/SubdomainController.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/yjstandard/dao/SubdomainMapper.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/yjstandard/service/SubdomainService.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/yjstandard/service/impl/SubdomainServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/service/SubdomainService.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/service/impl/SubdomainServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/dao/SubdomainMapper.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/DruidDbConfig.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/resources/mappers/yjstandard/SubdomainMapper.xml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/service/UserService.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/resources/mappers/kamailio/UserMapper.xml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/dao/UserMapper.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/resources/application-dev.yml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/controller/SubdomainController.java" />
+        <option value="$PROJECT_DIR$/soft-manager-api/src/main/java/com/yunji/service/impl/DemoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/StudyDbConfig.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/YjStandardDbConfig.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/entity/SysPermission.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/CodeGenerator.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/SysPermission.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/Subdomain.java" />
+        <option value="$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/pojo/User.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="327" />
+    <option name="y" value="38" />
+    <option name="width" value="1328" />
+    <option name="height" value="943" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunji" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="yunji" type="462c0819:PsiDirectoryNode" />
+              <item name="xk" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+              <item name="kamailio" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="yunji-xk" type="b2602c69:ProjectViewProjectNode" />
+              <item name="yunji-xk" type="462c0819:PsiDirectoryNode" />
+              <item name="xk-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mappers" type="462c0819:PsiDirectoryNode" />
+              <item name="yjstandard" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1600416096834" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yunji.xk.config" />
+      <recent name="com.yunji.xk.kamailio.service.impl" />
+      <recent name="com.yunji.xk.kamailio.service" />
+      <recent name="com.yunji.xk.kamailio.dao" />
+      <recent name="com.yunji.xk.kamailio.pojo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github-project\yunji-xk\xk-api\src\main\resources\mappers\kamailio" />
+      <recent name="E:\github-project\yunji-xk\xk-api\src\main\java\com\yunji\xk\config" />
+      <recent name="E:\github-project\yunji-xk\xk-api\src\main\resources\mappers\yjstandard" />
+      <recent name="E:\github-project\yunji-xk\xk-api\src\main\java\com\yunji\kamailio" />
+      <recent name="E:\github-project\yunji-xk" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.XkApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yunji.xk.config.CodeGenerator" />
+      <module name="xk-api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yunji.xk.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="soft-manager-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yunji.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="XkApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="xk-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yunji.XkApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CodeGenerator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d0bd3b4-0d47-4b9c-a76e-008c0e3db124" name="Default Changelist" comment="" />
+      <created>1600140902499</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600140902499</updated>
+      <workItem from="1600140904216" duration="1430000" />
+      <workItem from="1600239388392" duration="7383000" />
+      <workItem from="1600322009701" duration="2456000" />
+      <workItem from="1600324492406" duration="7382000" />
+      <workItem from="1600332676403" duration="2552000" />
+      <workItem from="1600335249391" duration="1673000" />
+      <workItem from="1600401019496" duration="1702000" />
+      <workItem from="1600408972083" duration="5633000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="30211000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24626866" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.329718" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.27440348" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Problems" order="15" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" visible="true" weight="0.07569297" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/exception/SoftManagerErrorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/exception/YunjiException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/application-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/pojo/Demo.java" />
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/application-product.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/mappers/DemoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/service/SubdomainService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/service/impl/SubdomainServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/dao/SubdomainMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/exception/CommonErrorEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+          <folding>
+            <element signature="e#551#552#0" expanded="true" />
+            <element signature="e#577#578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/controller/TestController.java" />
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/DataSourceConfig.java" />
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/DruidDbConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/config/MybatisPlusConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/service/impl/DemoServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/dao/DemoMapper.java" />
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="17" column="64" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/mappers/kamailio/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="55" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="35" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft-manager-api/src/main/resources/mappers/DemoDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/common/PageVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/yunji/common/common/ResponseInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="34" column="11" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft-manager-api/src/main/java/com/yunji/pojo/Demo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/application-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="57" column="17" lean-forward="true" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft-manager-api/src/main/java/com/yunji/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/resources/mappers/yjstandard/SubdomainMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.8.RELEASE/spring-web-5.2.8.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="107" selection-start-line="107" selection-end-line="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.1.0/mybatis-plus-core-3.1.0.jar!/com/baomidou/mybatisplus/core/toolkit/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="138" column="59" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft-manager-api/src/main/java/com/yunji/service/impl/DemoServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="38" column="42" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-boot-starter/3.4.0/mybatis-plus-boot-starter-3.4.0.pom">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/soft-manager-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="99" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="53" column="43" lean-forward="true" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-generator/3.4.0/mybatis-plus-generator-3.4.0.jar!/com/baomidou/mybatisplus/generator/config/PackageConfig.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="28" column="18" selection-start-line="28" selection-start-column="18" selection-end-line="28" selection-end-column="18" />
+          <folding>
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#896#897#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/StudyDbConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="60" column="54" selection-start-line="60" selection-start-column="54" selection-end-line="60" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="712" column="25" selection-start-line="712" selection-start-column="25" selection-end-line="712" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/YjStandardDbConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="57" column="39" selection-start-line="57" selection-start-column="39" selection-end-line="57" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/entity/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="43" column="39" lean-forward="true" selection-start-line="43" selection-start-column="39" selection-end-line="43" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/service/impl/SysRolePermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/config/CodeGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="101" column="39" selection-start-line="101" selection-start-column="39" selection-end-line="101" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2627#2765#0" expanded="true" />
+            <element signature="e#2764#2765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/SysPermission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/pojo/Subdomain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/kamailio/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="35" selection-start-line="24" selection-start-column="35" selection-end-line="24" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xk-api/src/main/java/com/yunji/xk/yjstandard/controller/SubdomainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="43" column="5" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>soft-manager-api</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

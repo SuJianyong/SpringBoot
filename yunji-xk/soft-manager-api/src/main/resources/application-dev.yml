@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:mysql://127.0.0.1:3306/yjstandard?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: root
+    password: root
+server:
+  port: 7002
+logging:
+  level:
+    root: info
+swagger:
+  enable: true
+  basePackage: com.yunji.controller
+

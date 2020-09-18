@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/soft-manager-api/soft-manager-api.iml" filepath="$PROJECT_DIR$/soft-manager-api/soft-manager-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xk-api/xk-api.iml" filepath="$PROJECT_DIR$/xk-api/xk-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/yunji-xk.iml" filepath="$PROJECT_DIR$/yunji-xk.iml" />
+    </modules>
+  </component>
+</project>

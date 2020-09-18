@@ -1,0 +1,22 @@
+spring:
+  datasource:
+    druid:
+      yjstandard:
+        url: jdbc:mysql://localhost:3306/yjstandardex?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+      study:
+        url: jdbc:mysql://localhost:3306/study?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+        username: root
+        password: root
+        driver-class-name: com.mysql.cj.jdbc.Driver
+server:
+  port: 7002
+logging:
+  level:
+    root: info
+swagger:
+  enable: true
+  basePackage: com.yunji
+
