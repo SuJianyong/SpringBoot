@@ -1,12 +1,12 @@
 
-V	java:S125]"<This block of commented-out lines of code should be removed.(ã¢ıÿÿÿÿ
-N	java:S106""9Replace this use of System.out or System.err by a logger.(±·°ì
-Q	java:S125|"<This block of commented-out lines of code should be removed.(Û‡õŸ
 \
 java:S1075["ARefactor your code to get this URI from a customizable parameter.(Ô®×•üÿÿÿÿ
+R	java:S125‡"<This block of commented-out lines of code should be removed.(¢öüÙ
 V	java:S125B"<This block of commented-out lines of code should be removed.(ƒ‰ïıüÿÿÿÿ
 Q	java:S125"<This block of commented-out lines of code should be removed.(Ëºº2
 R	java:S125Š"<This block of commented-out lines of code should be removed.(ê¸¬©
 V	java:S125k"<This block of commented-out lines of code should be removed.(å¤Ù»úÿÿÿÿ
-R	java:S125‡"<This block of commented-out lines of code should be removed.(¢öüÙ
 W	java:S125Œ"<This block of commented-out lines of code should be removed.(ğ¨×ìúÿÿÿÿ
+N	java:S106""9Replace this use of System.out or System.err by a logger.(±·°ì
+Q	java:S125|"<This block of commented-out lines of code should be removed.(Û‡õŸ
+V	java:S125]"<This block of commented-out lines of code should be removed.(ã¢ıÿÿÿÿ
