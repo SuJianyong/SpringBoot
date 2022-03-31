@@ -29,7 +29,7 @@
         <java.version>8</java.version>
 
         <!--编译版本-->
-        <spring-boot.version>2.3.3.RELEASE</spring-boot.version>
+        <spring-boot.version>2.5.12</spring-boot.version>
 
         <!--mybatis-plus版本-->
         <mybatis-plus.version>3.4.0</mybatis-plus.version>
