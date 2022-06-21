@@ -35,7 +35,7 @@
         <mybatis-plus.version>3.4.0</mybatis-plus.version>
 
         <!--mysql-connector版本-->
-        <mysql-connector.version>8.0.21</mysql-connector.version>
+        <mysql-connector.version>8.0.28</mysql-connector.version>
 
         <!--swagger版本-->
         <swagger.version>2.9.2</swagger.version>
