@@ -40,7 +40,7 @@
         <freemarker.version>2.3.30</freemarker.version>
 
         <!--mysql-connector版本-->
-        <mysql-connector.version>8.0.21</mysql-connector.version>
+        <mysql-connector.version>8.0.28</mysql-connector.version>
         <!--druid版本-->
         <druid.version>1.1.10</druid.version>
 
